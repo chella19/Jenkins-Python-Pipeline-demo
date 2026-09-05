@@ -8,7 +8,7 @@ jobs:
       - name: Checkot the code
         uses: actions/checkout@v7
       - name: Install Java
-        uses: action/setup-java@v5
+        uses: action/setup-java@v6
         with:
           java-version: '17'
           distribution: 'temurin'
