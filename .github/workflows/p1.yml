@@ -18,4 +18,4 @@ jobs:
       - name: Setup environmet
         run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
       - name: Run tests
-        run: pytest
+        run: pytest --cov =app --cov report=xml
